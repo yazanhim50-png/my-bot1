@@ -4,7 +4,7 @@ import asyncio
 
 # --- إعدادات البوت الأساسية ---
 # ضع التوكن الخاص بك بين العلامتين ''
-TOKEN = "MTQ3ODQ5NDYxMTM2NTMwMjI3Mg.GdJlSF.M0ONn-NFo_eN_Qw05iUkMgR8MiR9gFj9"
+TOKEN = "MTQ3ODQ5OTMwNjM0MzM3MDc4Mg.Gmv8_g.w7x0ev6APPTDtH48rr4ATr2vxCjVlgzdsUqfYo"
 
 # ضع ايدي الروم الصوتي هنا (أرقام فقط بدون علامات)
 VOICE_ID = 1425978734300758116 
@@ -48,5 +48,6 @@ except discord.errors.LoginFailure:
     print("❌ خطأ: التوكن غير صحيح! تأكد من نسخة من موقع المطورين.")
 except Exception as e:
     print(f"❌ حدث خطأ غير متوقع: {e}")
+
 
 
