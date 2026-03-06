@@ -4,7 +4,7 @@ import asyncio
 
 # --- إعدادات البوت الأساسية ---
 # ضع التوكن الخاص بك بين العلامتين ''
-TOKEN = "MTQ3ODQ5NDYxMTM2NTMwMjI3Mg.GlXALJ.YIkrMs6HQ5ePJv-l6k9tYalEL4"
+TOKEN = "MTQ3ODQ5NDYxMTM2NTMwMjI3Mg.GLEoBQ.A91B6UIIse9h4bNQlDd7JidLOkFx50HhB92b_4"
 
 # ضع ايدي الروم الصوتي هنا (أرقام فقط بدون علامات)
 VOICE_ID = 1427375098041467011 
@@ -75,4 +75,5 @@ def my_main_logic():
 if __name__ == "__main__":
     keep_alive() # تشغيل السيرفر الوهمي
     my_main_logic() # تشغيل كودك الأصلي
+
 
