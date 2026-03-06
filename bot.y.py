@@ -48,6 +48,10 @@ except discord.errors.LoginFailure:
     print("❌ خطأ: التوكن غير صحيح! تأكد من نسخة من موقع المطورين.")
 except Exception as e:
     print(f"❌ حدث خطأ غير متوقع: {e}")
+import os
+# السطر التالي يسحب التوكن من الإعدادات التي وضعتها في Render
+token = os.getenv('DISCORD_TOKEN_2')
+client.run(token)
 
 
 
